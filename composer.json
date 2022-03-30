@@ -15,7 +15,10 @@
         "issues": "https://github.com/wangqs33/think-phpexcel/issues"
     },
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "ext-mbstring": "*",
+        "ext-xml": "*",
+        "ext-xmlwriter": "*"
     },
     "autoload": {
         "psr-4": {
