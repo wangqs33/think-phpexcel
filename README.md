@@ -1,6 +1,6 @@
 # think-phpexcel
 The TP6 phpexcel
-excel 上传与导出 for tp5 or tp6
+read excel for tp5 or tp6
 ## 安装
 
 ### 执行命令安装
@@ -8,6 +8,10 @@ excel 上传与导出 for tp5 or tp6
 composer require qingsong/think-phpexcel
 ```
 
-     
-
+### 调用方法
+```
+EXCEL类型可以是XLS或XLSX
+$filePath='./example.xlsx';
+$PHPExcel = \qingsong\phpexcel\Readphpexcel::load($filePath); 
+```
 

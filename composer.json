@@ -1,6 +1,6 @@
 {
     "name": "qingsong/think-phpexcel",
-    "description": "excel 上传与导出 for tp5 or tp6",
+    "description": "read excel for tp5 or tp6",
     "homepage": "https://github.com/wangqs33/think-phpexcel",
     "license": "MIT",
     "minimum-stability": "stable",
