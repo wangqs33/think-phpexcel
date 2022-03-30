@@ -35,7 +35,6 @@ if (!defined('PHPEXCEL_ROOT')) {
 	define('PHPEXCEL_ROOT', dirname(__FILE__) . '/');
 	require(PHPEXCEL_ROOT . 'PHPExcel/Autoloader.php');
 }
-
 /**
  * PHPExcel_IOFactory
  *
@@ -78,7 +77,7 @@ class Readphpexcel
     /**
      *	Private constructor for PHPExcel_IOFactory
      */
-    private function __construct() { }
+    private function __construct() {}
 
     /**
      * Get search locations
