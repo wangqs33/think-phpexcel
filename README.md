@@ -8,10 +8,15 @@ read excel for tp5 or tp6
 composer require qingsong/think-phpexcel
 ```
 
-### 调用方法
+## 调用方法
 ```
 EXCEL类型可以是XLS或XLSX
 $filePath='./example.xlsx';
 $PHPExcel = \qingsong\phpexcel\Readphpexcel::load($filePath); 
+```
+
+## 删除包
+```
+composer remove qingsong/think-phpexcel
 ```
 
